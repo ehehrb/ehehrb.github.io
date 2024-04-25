@@ -1,0 +1,49 @@
+body{
+  background: #fffeee;
+}
+.noto-sans-tc-nav {
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+.noto-sans-tc-b {
+  font-family: "Noto Sans TC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 650;
+  font-style: normal;
+}
+.nav-link {
+  color: #fffeee;
+}
+.foodimg{
+  background-image: url(photo.png);
+  background-size: cover;
+}
+.text-b{
+  color: #604c3f;
+}
+
+.btn-g{
+  background-color: #9cd3be;
+  color: #604c3f;
+}
+.btn-g:hover{
+  background-color: #85b3a2;
+  color: #ffffff;
+}
+
+.card{
+  transition: all .5s;
+}
+.card:hover{
+  box-shadow: 5px 5px 5px #d0cfc2;
+  transform: translate(-5px, -5px) rotate(-1deg);
+}
+
+.footer{
+  background-color: #604c3f;
+}
+.text-y{
+  color: #fffeee;
+}
