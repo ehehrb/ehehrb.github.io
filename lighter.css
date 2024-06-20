@@ -1,0 +1,111 @@
+body {
+    background: #fffeee;
+}
+
+.noto-sans-tc-nav {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.noto-sans-tc-r {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: medium;
+}
+
+.noto-sans-tc-b {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: small;
+}
+
+.nav-link {
+    color: #fffeee;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.lighter{
+    border-radius: 10px;
+}
+
+.text-b {
+    color: #604c3f;
+}
+
+.text-g {
+    color: #847d7d;
+}
+
+.footer {
+    background-color: #604c3f;
+}
+
+.text-y {
+    color: #fffeee;
+}
+
+
+.marquee-container {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    color: #9cd3be;
+}
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+.marquee-content2 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee2 15s linear infinite;
+}
+.marquee-content3 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee2 15s linear infinite;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes marquee2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes marquee3 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

@@ -1,0 +1,105 @@
+body {
+    background: #fffeee;
+}
+
+.noto-sans-tc-nav {
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.nav-link {
+    color: #fffeee;
+}
+
+.text-b {
+    color: #604c3f;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.btn-g {
+    background-color: #9cd3be;
+    color: #604c3f;
+}
+
+.btn-g:hover {
+    background-color: #85b3a2;
+    color: #ffffff;
+}
+
+.card {
+    transition: all .5s;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 5px #d0cfc2;
+    transform: translate(-5px, -5px) rotate(-1deg);
+}
+
+.footer {
+    background-color: #604c3f;
+}
+
+.text-y {
+    color: #fffeee;
+}
+
+.marquee-container {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    font-family: "Noto Sans TC", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 650;
+    font-style: normal;
+    color: #9cd3be;
+}
+.marquee-content {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 15s linear infinite;
+}
+.marquee-content2 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee2 15s linear infinite;
+}
+.marquee-content3 {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee2 15s linear infinite;
+}
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes marquee2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+@keyframes marquee3 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
