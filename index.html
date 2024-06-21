@@ -10,13 +10,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-danger fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand ps-3" href="#">
+            <a class="navbar-brand ps-3" href="home.html">
                 <img src="logo.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -26,16 +26,16 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto pe-3">
                     <li class="nav-item">
-                        <a class="nav-link noto-sans-tc-nav" href="#">-公告-</a>
+                        <a class="nav-link noto-sans-tc-nav" href="news.html">-公告-</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link noto-sans-tc-nav" href="#">-關於我們-</a>
+                        <a class="nav-link noto-sans-tc-nav" href="about.html">-關於我們-</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link noto-sans-tc-nav" href="#">-菜單-</a>
+                        <a class="nav-link noto-sans-tc-nav" href="menu.html">-菜單-</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link noto-sans-tc-nav" href="#">-周邊商品-</a>
+                        <a class="nav-link noto-sans-tc-nav" href="products.html">-周邊商品-</a>
                     </li>
                 </ul>
             </div>
@@ -50,6 +50,19 @@
         </div>
     </div>
 
+    <!-- 文字跑馬燈 -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯 ● 雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯  ●
+        </div>
+        <div class="marquee-content2">
+            雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯 ● 雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯  ●
+        </div>
+        <div class="marquee-content3">
+            雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯 ● 雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯  ●
+        </div>
+    </div>
+
     <!-- 內容 -->
     <div class="container my-5">
         <div class="row">
@@ -57,7 +70,7 @@
                 <img src="photo4.png" class="img-fluid" alt="">
             </div>
             <div class="col-md">
-                <h3 class="text-danger noto-sans-tc-b">【歡慶開幕】</h3>
+                <h3 class="text-danger noto-sans-tc-b">【 歡慶開幕 】</h3>
                 <p class="text-b noto-sans-tc-b">雞魯好朋友開幕啦！！！
                     <br>開幕日期於1月1日（一）～1月18日（一）
                     <br>1月1日（一）當天會有開幕活動，歡迎大家一同前來共襄盛舉，順便吃美食～
@@ -67,54 +80,71 @@
                     <br>1.開幕期間凡是來店內用吃美食即可獲得新台幣30元的折價券一張(非當次使用)
                     <br>2.開幕期間凡是在Google評論寫下評價即可獲得貼紙乙張(一人最多一張)
                 </p>
-                <a href="#" class="btn btn-danger">more...</a>
+                <a href="news.html" class="btn btn-danger">more...</a>
             </div>
         </div>
     </div>
 
+    <div class="container recm text-danger noto-sans-tc-b">
+        <h2>❮ 周邊推薦 ❯</h2>
+    </div>
+
     <!-- 卡片 -->
-    <div class="container my-5">
+    <div class="container mt-3 mb-5">
         <div class="row">
             <div class="col-md my-2">
                 <div class="card">
-                    <img src="photo5.png" class="card-img-top" alt="...">
+                    <img src="photo5.png" class="card-img-top" alt="打火機">
                     <div class="card-body">
-                        <h5 class="card-title text-b">【開幕限定樣式】打火機</h5>
-                        <p class="card-text text-b">打火機－共兩款/$50</p>
-                        <a href="#" class="btn btn-g">點我購買</a>
+                        <h5 class="card-title text-b">【開幕限定】打火機</h5>
+                        <p class="card-text text-b">↪︎打火機－共兩款/$100</p>
+                        <a href="lighter.html" class="btn btn-g">點我購買</a>
                     </div>
                 </div>
             </div>
             <div class="col-md my-2">
                 <div class="card">
-                    <img src="photo6.png" class="card-img-top" alt="...">
+                    <img src="photo6.png" class="card-img-top" alt="馬克杯">
                     <div class="card-body">
-                        <h5 class="card-title text-b">【開幕限定樣式】馬克杯</h5>
-                        <p class="card-text text-b">馬克杯/$350</p>
-                        <a href="#" class="btn btn-g">點我購買</a>
+                        <h5 class="card-title text-b">【開幕限定】馬克杯</h5>
+                        <p class="card-text text-b">↪︎馬克杯/$350</p>
+                        <a href="products.html" class="btn btn-g">點我購買</a>
                     </div>
                 </div>
             </div>
             <div class="col-md my-2">
                 <div class="card">
-                    <img src="photo7.png" class="card-img-top" alt="...">
+                    <img src="photo7.png" class="card-img-top" alt="鑰匙圈">
                     <div class="card-body">
-                        <h5 class="card-title text-b">【開幕限定樣式】鑰匙圈</h5>
-                        <p class="card-text text-b">鑰匙圈－共三款/$100</p>
-                        <a href="#" class="btn btn-g">點我購買</a>
+                        <h5 class="card-title text-b">【開幕限定】鑰匙圈</h5>
+                        <p class="card-text text-b">↪︎鑰匙圈－共三款/$100</p>
+                        <a href="products.html" class="btn btn-g">點我購買</a>
                     </div>
                 </div>
             </div>
             <div class="col-md my-2">
                 <div class="card">
-                    <img src="photo8.png" class="card-img-top" alt="...">
+                    <img src="photo8.png" class="card-img-top" alt="馬克杯">
                     <div class="card-body">
                         <h5 class="card-title text-b">好朋友馬克杯</h5>
-                        <p class="card-text text-b">馬克杯/$350</p>
-                        <a href="#" class="btn btn-g">點我購買</a>
+                        <p class="card-text text-b">↪︎馬克杯/$350</p>
+                        <a href="products.html" class="btn btn-g">點我購買</a>
                     </div>
                 </div>
             </div>
+        </div>
+    </div>
+
+    <!-- 文字跑馬燈 -->
+    <div class="marquee-container">
+        <div class="marquee-content">
+            雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯 ● 雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯
+        </div>
+        <div class="marquee-content2">
+            雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯 ● 雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯
+        </div>
+        <div class="marquee-content3">
+            雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯 ● 雞魯好朋友 ● chicken&pig ● 雞肉飯 ● 魯肉飯 ● 雞魯飯
         </div>
     </div>
 
